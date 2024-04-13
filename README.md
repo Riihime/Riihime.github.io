@@ -6,4 +6,4 @@
  Graphics/art, which are used in [this domain](https://www.riihime.is-a.dev),  are credited in.
 
 ## Special
- Thanks to   [@yavoru](https://yavoru.github.io/profile/)- my beloved one and [@caodoc](https://caodoc.is-a.dev/) for helping me with this project!
+ Thanks to   [@yavoru](https://yavoru.github.io/profile/) - my beloved one and [@caodoc](https://caodoc.is-a.dev/) for helping me with this project!

@@ -10,6 +10,8 @@
 body
 {
     zoom: 5;
+    background: rgb(240,104,0);
+    background: linear-gradient(90deg, rgba(158,165,195,1) 0%, rgba(121,125,168,1) 100%);
 }
 *
 {
@@ -17,7 +19,6 @@ body
     margin: auto;
     box-sizing: border-box;
     user-select: none;
-    background-color: rgb(43, 43, 43);
 }
 
 h1
@@ -25,4 +26,9 @@ h1
     font-family: Eight One;
     text-align:center;
     color: rgb(231, 229, 229);
+}
+.gradient /* linear-gradient(degree, stop, stop, ...) */
+{
+    background: rgb(240,104,0);
+    background: linear-gradient(circle , rgba(158,165,195,1) 0%, rgba(239,237,244,1) 57%, rgba(121,125,168,1) 100%);
 }

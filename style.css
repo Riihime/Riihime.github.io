@@ -1,4 +1,5 @@
-@font-face {
+@font-face
+{
     font-family: Nunito;
     src: url(assets/fonts/Nunito/Nunito-Regular.ttf);
 }
@@ -15,10 +16,9 @@
     background-color: rgb(43, 43, 43);
 }
 
-h1 {
-    font-family: Eight One;
-    margin: auto;
-    box-sizing: border-box;
-    user-select: none;
-    background-color: none
+h1
+{
+    font-family: Nunito;
+    text-align:center;
+    color: rgb(231, 229, 229);
 }

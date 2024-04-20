@@ -3,6 +3,10 @@
     src: url(assets/Nunito/Nunito-Regular.ttf);
 }
 
-div{
+h1 {
     font-family: Nunito;
+    margin: auto;
+    box-sizing: border-box;
+    user-select: none;
+    background-color: rgb(231, 229, 229);
 }

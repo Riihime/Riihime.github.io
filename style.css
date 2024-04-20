@@ -1,8 +1,11 @@
 @font-face {
     font-family: Nunito;
-    src: url(assets/Nunito/Nunito-Regular.ttf);
+    src: url(assets/fonts/Nunito/Nunito-Regular.ttf);
 }
-
+@font-face {
+    font-family: Eight One;
+    src: url(assets/fonts/EightOne/EightOne.ttf);
+}
 *
 {
     font-family:'Open Sans';
@@ -13,9 +16,9 @@
 }
 
 h1 {
-    font-family: Nunito;
+    font-family: Eight One;
     margin: auto;
     box-sizing: border-box;
     user-select: none;
-    background-color: rgb(231, 229, 229);
+    background-color: none
 }

@@ -1,11 +1,11 @@
 :root
 {
     --boxRadius: 10px;
-    --wallWidth: 500px;
+    --wallWidth: 100%;
     --pfpSize:300px;
-    --pfpMTop:50px;
-    --pfpMLeft:-180px;
-    --textMTop:300px;
+    --pfpMTop:180px;
+    --pfpMLeft:-680px;
+    --textMTop:200px;
 }
 
 @font-face
@@ -50,12 +50,11 @@ h1
 {
     display:flex;
     justify-content: center;
-    margin:10%;
-    background-color: rgba(213, 196, 224, 0.22);
-    border-style: solid;
+    /* background-color: rgba(213, 196, 224, 0.22); */
+    /* border-style: solid;
     border-color:rgb(0, 0, 0);
     border-width:4px;
-    border-radius: var(--boxRadius);
+    border-radius: var(--boxRadius); */
     width: var(--wallWidth);
     min-height: 173px;
     height:500px;
@@ -64,12 +63,11 @@ h1
 {
     z-index: 0;
     position:absolute;
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(255, 255, 255, 0); */
     width: var(--wallWidth);
-    max-width: 500px;
-    border-radius: var(--boxRadius) var(--boxRadius) 0 0;
+    /* border-radius: var(--boxRadius) var(--boxRadius) 0 0;
     border-color:black;
-    border: 4px solid black;
+    border: 4px solid black; */
     border-top:0;
 }
 .pfp

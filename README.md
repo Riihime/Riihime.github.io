@@ -7,4 +7,7 @@
 
 ## Special
  Thanks to   [@yavoru](https://yavoru.github.io/profile/) - my beloved one and [@caodoc](https://caodoc.is-a.dev/) for helping me with this project!
- [@yavoru](https://github.com/yavoru):我是鱼🐟，我被邀请去调试🪲。
+
+ `Note from contributors:`
+ 
+ [@yavoru](https://github.com/yavoru) : 我是鱼🐟，我被邀请去调试🪲。

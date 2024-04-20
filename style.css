@@ -1,3 +1,13 @@
+:root
+{
+    --boxRadius: 10px;
+    --wallWidth: 500px;
+    --pfpSize:300px;
+    --pfpMTop:50px;
+    --pfpMLeft:-180px;
+    --textMTop:300px;
+}
+
 @font-face
 {
     font-family: Nunito;
@@ -11,11 +21,15 @@ body
 {
     background: rgb(240,104,0);
     background: linear-gradient(90deg, rgba(158,165,195,1) 0%, rgba(121,125,168,1) 100%);
+    color:white;
+    display:flex;
+    justify-content: center;
 }
 *
 {
     font-family:'Nunito';
-    margin: auto;
+    margin: 0;
+    padding:0;
     box-sizing: border-box;
     user-select: none;
 }
@@ -30,4 +44,43 @@ h1
 {
     background: rgb(240,104,0);
     background: linear-gradient(circle , rgba(158,165,195,1) 0%, rgba(239,237,244,1) 57%, rgba(121,125,168,1) 100%);
+}
+
+.profile
+{
+    display:flex;
+    justify-content: center;
+    margin:10%;
+    background-color: rgba(213, 196, 224, 0.22);
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-width:4px;
+    border-radius: var(--boxRadius);
+    width: var(--wallWidth);
+    min-height: 173px;
+    height:500px;
+}
+.wall-image
+{
+    z-index: 0;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: var(--wallWidth);
+    max-width: 500px;
+    border-radius: var(--boxRadius) var(--boxRadius) 0 0;
+    border-color:black;
+    border: 4px solid black;
+    border-top:0;
+}
+.pfp
+{
+    z-index: 2;
+    width: var(--pfpSize);
+    height:var(--pfpSize);
+    /* border-style: solid;
+    border-color:black;
+    border-radius:50%; */
+    position:absolute;
+    margin-top: var(--pfpMTop);
+    margin-left: var(--pfpMLeft);
 }

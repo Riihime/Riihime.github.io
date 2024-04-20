@@ -7,6 +7,10 @@
     font-family: Eight One;
     src: url(assets/fonts/EightOne/EightOne.ttf);
 }
+body
+{
+    zoom: 5;
+}
 *
 {
     font-family:'Open Sans';

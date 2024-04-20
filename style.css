@@ -2,9 +2,9 @@
 {
     --boxRadius: 10px;
     --wallWidth: 100%;
-    --pfpSize:600px;
+    --pfpSize:500px;
     --pfpMTop:70px;
-    --pfpMLeft:-62%;
+    --pfpMLeft: 70px;
     --textMTop:200px;
 }
 

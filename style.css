@@ -2,7 +2,7 @@
 {
     --boxRadius: 10px;
     --wallWidth: 100%;
-    --pfpSize:justify-content;
+    --pfpSize: 99vh; /* 👍 */
     --pfpMTop:70px;
     --pfpMLeft: -50%;
     --textMTop:200px;
@@ -21,8 +21,9 @@ body
 {
     
     color:white;
-    display:flex;
-    justify-content: center;
+    /* display:flex;
+    justify-content: center; */
+    overflow:hidden;
 }
 *
 {
@@ -45,7 +46,7 @@ h1
     background: linear-gradient(circle , rgb(0, 0, 0) 0%, rgba(121,125,168,1) 100%);
 }
 
-.profile
+.heart
 {
     display:flex;
     justify-content: center;
@@ -76,11 +77,21 @@ h1
 
 .pfp
 {
-    z-index: 2;
+    z-index: 1;
     width: var(--pfpSize);
     height:var(--pfpSize);
-    position: sticky;
+    position: absolute;
     /* position:absolute;*/
     margin-top: var(--pfpMTop);
     margin-left: var(--pfpMLeft);
+}
+.profile-card
+{
+    z-index:2;
+    margin: 25vh 0 20vh 50vw; /* top right bottom left */
+    padding: 0 10vw;
+    border: 5px solid black;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.145);
+    color: rgba(255, 255, 255, 0.855);
 }

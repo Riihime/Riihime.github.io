@@ -64,7 +64,7 @@ h1
 {
     z-index: 0;
     position:absolute;
-    /* background-color: rgba(255, 255, 255, 0); */
+    background-color: rgba(255, 255, 255, 0);
     width: var(--wallWidth);
     /* border-radius: var(--boxRadius) var(--boxRadius) 0 0;
     border-color:black;

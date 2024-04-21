@@ -62,7 +62,7 @@ h1
     /* background: rgb(121,121,168);*/
 }
 
- .wall-image
+.wall-image
 {
     filter: blur(5.5px);
     transition: opacity 0.3s ease;

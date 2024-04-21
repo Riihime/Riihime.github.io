@@ -42,7 +42,6 @@ h1
 }
 .gradient /* linear-gradient(degree, stop, stop, ...) */
 {
-    background: rgb(240,104,0);
     background: linear-gradient(circle , rgb(0, 0, 0) 0%, rgba(121,125,168,1) 100%);
 }
 
@@ -50,21 +49,22 @@ h1
 {
     display:flex;
     justify-content: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%,  rgba(121,121,168,1) 100%);
+    width: var(--wallWidth);
+    min-height: 173px;
+    height:100vh;
+
+    /*-------------------------------*/
     /* background-image: rgba(213, 196, 224, 0.22); */
     /* border-style: solid;
     border-color:rgb(0, 0, 0);
     border-width:4px;
     border-radius: var(--boxRadius); */
     /* background: rgb(121,121,168);*/
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%,  rgba(121,121,168,1) 100%);
-    width: var(--wallWidth);
-    min-height: 173px;
-    height:100vh;
 }
 
 .wall-image
 {
-    /* background-color: rgb(0, 0, 0);*/
     filter: blur(5.5px);
     transition: opacity 0.3s ease;
     opacity: 40%; 

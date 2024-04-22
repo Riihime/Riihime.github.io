@@ -1,9 +1,9 @@
 # riihime.is-a.dev
 ## Use
- Sources code for [my website](https://www.riihime.is-a.dev).
+ Sources code for [my website](https://riihime.is-a.dev).
 
 ## Credit
- Graphics/art, which are used in [this website](https://www.riihime.is-a.dev),  are credited in.
+ Graphics/art, which are used in [this website](https://riihime.is-a.dev),  are credited in.
 
 ## Special
  Thanks to   [@yavoru](https://yavoru.github.io/profile/) - my beloved one and [@caodoc](https://caodoc.is-a.dev/) for helping me with this project!

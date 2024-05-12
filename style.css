@@ -2,8 +2,8 @@
 {
     --boxRadius: 10px;
     --wallWidth: 100%;
-    --pfpSize: 99vh; /* 👍 */
-    --pfpMTop:70px;
+    --pfpSize: 65vh; /* 👍 */
+    --pfpMTop:20vh;
     --pfpMLeft: -50%;
     --textMTop:200px;
 }
@@ -71,8 +71,7 @@ h1
     /* z-index: 0; */
     position:absolute;
     border-top: 0;
-    width: 100%;
-    height: 100%;
+    width: fit-content;
 } 
 
 .pfp

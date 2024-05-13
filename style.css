@@ -3,7 +3,7 @@
     --boxRadius: 10px;
     --wallWidth: 100%;
     --pfpSize: 50vh;
-    --pfpMTop:40vh;
+    --pfpMTop:10%;
     --pfpMLeft: -50%;
     --textMTop:200px;
 }
@@ -83,3 +83,9 @@ h1
     background: none;
     color: rgba(255, 255, 255, 0.855);
 }
+.page-doll
+{
+    margin-left:70%;
+    margin-top: 70%;
+    
+} 
